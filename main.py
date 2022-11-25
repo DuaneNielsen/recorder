@@ -23,7 +23,6 @@ from signal import signal, SIGINT
 import pathlib
 from pathlib import Path
 from urwid_app import UrwidFrontend, suppress_stdout_stderr
-from collections import deque
 
 def _counter():
     """
